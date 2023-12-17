@@ -1,0 +1,6 @@
+the image in the https://github.com/mo-shahab/packages/
+
+-- these are the commands for when you try to deploy the package through vs code
+
+docker tag my-java-docker:latest ghcr.io/mo-shahab/docker-java-hwd/my-java-docker:1.0
+docker push ghcr.io/mo-shahab/docker-java-hwd/my-java-docker:1.0
