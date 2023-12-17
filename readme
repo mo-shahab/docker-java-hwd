@@ -1,6 +1,12 @@
-the image in the https://github.com/mo-shahab?tab=packages
+the docker image in the packages:
+
+docker pull docker pull ghcr.io/mo-shahab/docker-java-hwd:latest
 
 -- these are the commands for when you try to deploy the package through vs code
 
-docker tag my-java-docker:latest ghcr.io/mo-shahab/docker-java-hwd/my-java-docker:1.0
-docker push ghcr.io/mo-shahab/docker-java-hwd/my-java-docker:1.0
+docker tag my-java-docker:latest ghcr.io/<github-username>/<image-id>:<tag-no>
+docker push ghcr.io/<github-username>/<image-id>:<tag-no>
+
+change the username and the image id to the concerning stuff
+
+for <tag-no> usually, its latest, or just 1.0 and something like that
